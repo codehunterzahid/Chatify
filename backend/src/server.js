@@ -12,6 +12,6 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 
 app.listen(PORT, () => {
-    console.log(`Server started on port ${PORT}`);
-    connectDB();
+  console.log(`Server started on port ${PORT}`);
+  connectDB();
 });
